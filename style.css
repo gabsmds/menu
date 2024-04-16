@@ -96,6 +96,32 @@ section.floricultura .flex{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 721px) {
+    .menu nav a{
+        color: #000000;
+        text-decoration: none;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    .container{
+        max-width: 1080px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
+    header{
+        background-color: #fffa9e;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .logo{
+        width: 30%;
+    }
+    
+    .menu{
+        width: 40%;
+    }
 }
