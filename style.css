@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: #fffa9e;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #000000;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+.menu nav a::after{
+    content: "";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, FF2500, #FF7100);
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.topo-do-site .txt-topo-site h1{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+section.floricultura{
+    padding: 40px 4%;
+
+}
+
+section.floricultura .flex{
+     gap: 60px;
+}
+
+.floricultura .floricultura-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.floricultura .floricultura-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.floricultura .floricultura-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+    color: #fff;
+}
+
+
+@media (max-width: 600px) {
+    
+}
